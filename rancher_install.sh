@@ -15,7 +15,7 @@ helm install cert-manager jetstack/cert-manager \
 
 helm install rancher rancher-latest/rancher \
   --namespace cattle-system \
-  --set hostname=192.168.0.24.local.bs \
+  --set hostname=rancher.thechroniccoop.ca \
   --set replicas=1 \
   --set bootstrapPassword=1234! \
   --set global.cattle.psp.enabled=false
