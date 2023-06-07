@@ -15,7 +15,7 @@ helm install cert-manager jetstack/cert-manager \
 
 helm install rancher rancher-latest/rancher \
   --namespace cattle-system \
-  --set hostname=127.0.0.1.sslip.io \
+  --set hostname=192.168.0.24.sslip.io \
   --set replicas=1 \
   --set bootstrapPassword=1234! \
   --set global.cattle.psp.enabled=false
