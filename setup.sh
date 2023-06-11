@@ -2,7 +2,7 @@
 
 
 # Install Packages (Ansible, zip, git, jq)
-    apt update -y \
+    sudo apt update -y \
     && apt-get install -y --no-install-recommends \
         gpg \
         lsb-core \
